@@ -1,0 +1,61 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 418,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 425,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "libraries",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/pdfhummus-build/PDFWriter/PDFWriter.lib"
+			],
+			"targetId" : "PDFWriter::@3757e917971a49704dc1",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "libraries",
+			"destination" : "include",
+			"paths" : 
+			[
+				"out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/pdfhummus-build/PDFWriter",
+		"source" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter"
+	}
+}

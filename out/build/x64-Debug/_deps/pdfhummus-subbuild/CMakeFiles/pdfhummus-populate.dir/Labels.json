@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/APP/source/repos/unite/out/build/x64-Debug/_deps/pdfhummus-subbuild/CMakeFiles/pdfhummus-populate"
+		},
+		{
+			"file" : "C:/Users/APP/source/repos/unite/out/build/x64-Debug/_deps/pdfhummus-subbuild/CMakeFiles/pdfhummus-populate.rule"
+		},
+		{
+			"file" : "C:/Users/APP/source/repos/unite/out/build/x64-Debug/_deps/pdfhummus-subbuild/CMakeFiles/pdfhummus-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/APP/source/repos/unite/out/build/x64-Debug/_deps/pdfhummus-subbuild/pdfhummus-populate-prefix/src/pdfhummus-populate-stamp/pdfhummus-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/APP/source/repos/unite/out/build/x64-Debug/_deps/pdfhummus-subbuild/pdfhummus-populate-prefix/src/pdfhummus-populate-stamp/pdfhummus-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/APP/source/repos/unite/out/build/x64-Debug/_deps/pdfhummus-subbuild/pdfhummus-populate-prefix/src/pdfhummus-populate-stamp/pdfhummus-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/APP/source/repos/unite/out/build/x64-Debug/_deps/pdfhummus-subbuild/pdfhummus-populate-prefix/src/pdfhummus-populate-stamp/pdfhummus-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/APP/source/repos/unite/out/build/x64-Debug/_deps/pdfhummus-subbuild/pdfhummus-populate-prefix/src/pdfhummus-populate-stamp/pdfhummus-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/APP/source/repos/unite/out/build/x64-Debug/_deps/pdfhummus-subbuild/pdfhummus-populate-prefix/src/pdfhummus-populate-stamp/pdfhummus-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/APP/source/repos/unite/out/build/x64-Debug/_deps/pdfhummus-subbuild/pdfhummus-populate-prefix/src/pdfhummus-populate-stamp/pdfhummus-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/APP/source/repos/unite/out/build/x64-Debug/_deps/pdfhummus-subbuild/pdfhummus-populate-prefix/src/pdfhummus-populate-stamp/pdfhummus-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pdfhummus-populate"
+		],
+		"name" : "pdfhummus-populate"
+	}
+}

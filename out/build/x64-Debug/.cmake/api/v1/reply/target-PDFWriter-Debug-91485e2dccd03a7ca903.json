@@ -1,0 +1,2739 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/pdfhummus-build/PDFWriter/PDFWriter.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 418,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 380,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 370,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 363,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 403,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 392,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 356,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "AVOID_WIN32_FILEIO=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "CCITT_SUPPORT=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "CHECK_JPEG_YCBCR_SUBSAMPLING=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DEFAULT_EXTRASAMPLE_AS_ALPHA=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "FILLODER_LSB2MSB=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "FT2_BUILD_LIBRARY=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "FT_CONFIG_OPTION_SYSTEM_ZLIB=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "LOGLUV_SUPPORT=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "LZW_SUPPORT=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "NEXT_SUPPORT=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "PACKBITS_SUPPORT=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "PIXARLOG_SUPPORT=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "STRIPCHOP_DEFAULT=TIFF_STRIPCHOP"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "STRIP_SIZE_DEFAULT=8192"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "THUNDER_SUPPORT=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "TIF_PLATFORM_CONSOLE=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "ZIP_SUPPORT=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_CRT_SECURE_NO_DEPRECATE=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/APP/source/repos/unite/out/build/x64-Debug/_deps/pdfhummus-src/Zlib"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/APP/source/repos/unite/out/build/x64-Debug/_deps/pdfhummus-src/FreeType/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/APP/source/repos/unite/out/build/x64-Debug/_deps/pdfhummus-src/LibAesgm"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/APP/source/repos/unite/out/build/x64-Debug/_deps/pdfhummus-src/LibJpeg"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/APP/source/repos/unite/out/build/x64-Debug/_deps/pdfhummus-src/LibTiff"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/APP/source/repos/unite/out/build/x64-Debug/_deps/pdfhummus-src/LibPng"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "LibJpeg::@a5a07c2426d657f22077"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "LibAesgm::@68a521424f49e153c497"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "FreeType::@8a677c8f3a7b9f94a39e"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "LibPng::@aaa3de8ea0f73c377139"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "LibTiff::@02afebf33049ff088dab"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "Zlib::@e7fe4cc3c63e74ecfe68"
+		}
+	],
+	"id" : "PDFWriter::@3757e917971a49704dc1",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Users/APP/Source/Repos/unite/out/install/x64-Debug"
+		}
+	},
+	"name" : "PDFWriter",
+	"nameOnDisk" : "PDFWriter.lib",
+	"paths" : 
+	{
+		"build" : "_deps/pdfhummus-build/PDFWriter",
+		"source" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Document Context Level",
+			"sourceIndexes" : 
+			[
+				0,
+				5,
+				22,
+				30,
+				31,
+				33,
+				72,
+				73,
+				84,
+				85,
+				86,
+				88,
+				92,
+				97,
+				118,
+				128,
+				144,
+				145,
+				153,
+				174,
+				175,
+				189,
+				190,
+				191,
+				197,
+				200,
+				202,
+				203,
+				206,
+				229,
+				232,
+				258,
+				259,
+				271,
+				272,
+				273,
+				275,
+				279,
+				285,
+				304,
+				308,
+				321,
+				338
+			]
+		},
+		{
+			"name" : "Text\\PDF Font Definitions",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				6,
+				7,
+				17,
+				20,
+				25,
+				129,
+				130,
+				141,
+				142,
+				146,
+				148,
+				154,
+				155,
+				166,
+				171,
+				183,
+				188,
+				192,
+				199,
+				201,
+				235,
+				322,
+				323,
+				334,
+				335,
+				336
+			]
+		},
+		{
+			"name" : "Infrastructure\\Encoding",
+			"sourceIndexes" : 
+			[
+				3,
+				81,
+				120,
+				137,
+				140,
+				149,
+				267,
+				313,
+				330,
+				333
+			]
+		},
+		{
+			"name" : "PDF Embedding",
+			"sourceIndexes" : 
+			[
+				4,
+				82,
+				83,
+				96,
+				101,
+				102,
+				103,
+				104,
+				119,
+				150,
+				230,
+				268,
+				269,
+				270,
+				284,
+				289,
+				290,
+				291,
+				292,
+				310
+			]
+		},
+		{
+			"name" : "Text\\CFF",
+			"sourceIndexes" : 
+			[
+				8,
+				9,
+				10,
+				11,
+				14,
+				15,
+				16,
+				156,
+				157,
+				158,
+				159,
+				160,
+				163,
+				164,
+				165,
+				173,
+				234
+			]
+		},
+		{
+			"name" : "Text\\Type1",
+			"sourceIndexes" : 
+			[
+				12,
+				13,
+				39,
+				48,
+				116,
+				133,
+				134,
+				135,
+				136,
+				161,
+				162,
+				212,
+				221,
+				233,
+				305,
+				326,
+				327,
+				328,
+				329
+			]
+		},
+		{
+			"name" : "Infrastructure\\Basics",
+			"sourceIndexes" : 
+			[
+				18,
+				151,
+				167,
+				177,
+				180,
+				181,
+				243,
+				309
+			]
+		},
+		{
+			"name" : "XCryption",
+			"sourceIndexes" : 
+			[
+				19,
+				23,
+				24,
+				143,
+				169,
+				178,
+				179,
+				337
+			]
+		},
+		{
+			"name" : "Objects Context Level",
+			"sourceIndexes" : 
+			[
+				21,
+				32,
+				60,
+				79,
+				106,
+				107,
+				110,
+				115,
+				138,
+				172,
+				182,
+				205,
+				228,
+				244,
+				245,
+				246,
+				265,
+				294,
+				295,
+				298,
+				303,
+				331
+			]
+		},
+		{
+			"name" : "Text\\FreeType",
+			"sourceIndexes" : 
+			[
+				26,
+				27,
+				28,
+				29,
+				113,
+				176,
+				184,
+				185,
+				186,
+				187,
+				204,
+				301
+			]
+		},
+		{
+			"name" : "Infrastructure\\IO",
+			"sourceIndexes" : 
+			[
+				34,
+				35,
+				36,
+				37,
+				38,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				51,
+				52,
+				53,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				147,
+				193,
+				194,
+				195,
+				196,
+				207,
+				208,
+				209,
+				210,
+				211,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				224,
+				225,
+				226,
+				227,
+				231,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257
+			]
+		},
+		{
+			"name" : "PDF Embedding\\PredictionFilters",
+			"sourceIndexes" : 
+			[
+				49,
+				50,
+				222,
+				223
+			]
+		},
+		{
+			"name" : "Images\\JPG",
+			"sourceIndexes" : 
+			[
+				54,
+				55,
+				56,
+				236,
+				237,
+				238
+			]
+		},
+		{
+			"name" : "Infrastructure\\Trace and Log",
+			"sourceIndexes" : 
+			[
+				57,
+				127,
+				239,
+				320
+			]
+		},
+		{
+			"name" : "Infrastructure\\Encryption",
+			"sourceIndexes" : 
+			[
+				58,
+				59,
+				241,
+				242
+			]
+		},
+		{
+			"name" : "Text\\OpenType",
+			"sourceIndexes" : 
+			[
+				61,
+				62,
+				247,
+				248
+			]
+		},
+		{
+			"name" : "PDF Embedding\\Parsed objects Helpers",
+			"sourceIndexes" : 
+			[
+				74,
+				98,
+				99,
+				100,
+				260,
+				286,
+				287,
+				288
+			]
+		},
+		{
+			"name" : "PDF Embedding\\Parsed Objects",
+			"sourceIndexes" : 
+			[
+				75,
+				76,
+				77,
+				78,
+				80,
+				87,
+				89,
+				90,
+				91,
+				93,
+				94,
+				95,
+				105,
+				108,
+				109,
+				170,
+				198,
+				261,
+				262,
+				263,
+				264,
+				266,
+				274,
+				276,
+				277,
+				278,
+				280,
+				281,
+				282,
+				283,
+				293,
+				296,
+				297
+			]
+		},
+		{
+			"name" : "Text",
+			"sourceIndexes" : 
+			[
+				111,
+				139,
+				299,
+				332
+			]
+		},
+		{
+			"name" : "Main",
+			"sourceIndexes" : 
+			[
+				112,
+				300
+			]
+		},
+		{
+			"name" : "Images\\PNG",
+			"sourceIndexes" : 
+			[
+				114,
+				302
+			]
+		},
+		{
+			"name" : "Infrastructure\\Patterns",
+			"sourceIndexes" : 
+			[
+				117,
+				152,
+				168,
+				240,
+				306,
+				307,
+				311,
+				312
+			]
+		},
+		{
+			"name" : "State Serialization",
+			"sourceIndexes" : 
+			[
+				121,
+				122,
+				314,
+				315
+			]
+		},
+		{
+			"name" : "Images\\TIFF",
+			"sourceIndexes" : 
+			[
+				123,
+				124,
+				316,
+				317
+			]
+		},
+		{
+			"name" : "Infrastructure\\Timers",
+			"sourceIndexes" : 
+			[
+				125,
+				126,
+				318,
+				319
+			]
+		},
+		{
+			"name" : "Text\\TrueType",
+			"sourceIndexes" : 
+			[
+				131,
+				132,
+				324,
+				325
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/AbstractContentContext.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/AbstractWrittenFont.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/ANSIFontWriter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/Ascii7Encoding.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/ArrayOfInputStreamsStream.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CatalogInformation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CFFANSIFontWriter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CFFDescendentFontWriter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CFFEmbeddedFontWriter.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CFFFileInput.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CFFPrimitiveReader.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CFFPrimitiveWriter.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CharStringType1Interpreter.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CharStringType1Tracer.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CharStringType2Flattener.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CharStringType2Interpreter.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CharStringType2Tracer.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CIDFontWriter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CMYKRGBColor.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/DecryptionHelper.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/DescendentFontWriter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/DictionaryContext.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/DocumentContext.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/EncryptionHelper.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/EncryptionOptions.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/FontDescriptorWriter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/FreeTypeFaceWrapper.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/FreeTypeOpenTypeWrapper.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/FreeTypeType1Wrapper.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/FreeTypeWrapper.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/GraphicState.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/GraphicStateStack.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/IndirectObjectsReferenceRegistry.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InfoDictionary.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputAESDecodeStream.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputAscii85DecodeStream.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputAsciiHexDecodeStream.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputBufferedStream.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputByteArrayStream.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputCharStringDecodeStream.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputDCTDecodeStream.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputFile.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputFileStream.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputFlateDecodeStream.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputLZWDecodeStream.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputLimitedStream.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputOffsetStream.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputRC4XcodeStream.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputPFBDecodeStream.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputPredictorPNGOptimumStream.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputPredictorTIFFSubStream.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputStreamSkipperStream.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputStringBufferStream.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputStringStream.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/JPEGImageHandler.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/JPEGImageInformation.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/JPEGImageParser.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/Log.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/MD5Generator.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/RC4.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/ObjectsContext.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/OpenTypeFileInput.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/OpenTypePrimitiveReader.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/OutputAESEncodeStream.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/OutputBufferedStream.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/OutputFile.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/OutputFileStream.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/OutputFlateDecodeStream.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/OutputFlateEncodeStream.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/OutputRC4XcodeStream.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/OutputStreamTraits.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/OutputStringBufferStream.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PageContentContext.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PageTree.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/ParsedPrimitiveHelper.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFArray.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFBoolean.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFCosArray.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFCosDict.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFDate.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFDictionary.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFDocEncoding.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFDocumentCopyingContext.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFDocumentHandler.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFFormXObject.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFTiledPattern.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/TiledPatternContentContext.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFHexString.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFImageXObject.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFIndirectObjectReference.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFInteger.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFLiteralString.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFModifiedPage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFName.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFNull.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFObject.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFObjectParser.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFPage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFPageInput.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFDictionaryIterator.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFArrayIterator.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFPageMergingHelper.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFParser.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFParserTokenizer.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFParsingOptions.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFReal.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFRectangle.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFStream.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFStreamInput.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFSymbol.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFTextString.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFUsedFont.cpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFWriter.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PFMFileReader.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PNGImageHandler.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PrimitiveObjectsWriter.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PSBool.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/RefCountObject.cpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/ResourcesDictionary.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/SimpleStringTokenizer.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/StandardEncoding.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/StateReader.cpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/StateWriter.cpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/TIFFImageHandler.cpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/TiffUsageParameters.cpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/Timer.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/TimersRegistry.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/Trace.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/TrailerInformation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/TrueTypeANSIFontWriter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/TrueTypeDescendentFontWriter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/TrueTypeEmbeddedFontWriter.cpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/TrueTypePrimitiveWriter.cpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/Type1Input.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/Type1ToCFFEmbeddedFontWriter.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/Type1ToType2Converter.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/Type2CharStringWriter.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/UnicodeString.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/UppercaseSequance.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/UsedFontsRepository.cpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/WinAnsiEncoding.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/WrittenFontCFF.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/WrittenFontTrueType.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/XCryptionCommon.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/XObjectContentContext.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/AbstractContentContext.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/AbstractWrittenFont.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/AdapterIByteReaderWithPositionToIReadPositionProvider.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/ANSIFontWriter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/Ascii7Encoding.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/ArrayOfInputStreamsStream.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/BetweenIncluding.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/BoxingBase.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CatalogInformation.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CFFANSIFontWriter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CFFDescendentFontWriter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CFFEmbeddedFontWriter.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CFFFileInput.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CFFPrimitiveReader.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CFFPrimitiveWriter.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CharStringDefinitions.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CharStringType1Interpreter.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CharStringType1Tracer.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CharStringType2Flattener.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CharStringType2Interpreter.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CharStringType2Tracer.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CIDFontWriter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/CMYKRGBColor.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/ContainerIterator.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/DecryptionHelper.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/Deletable.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/DescendentFontWriter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/DictionaryContext.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/DictOperand.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/DocumentContext.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/DocumentContextExtenderAdapter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/EFontStretch.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/EHummusImageType.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/EncryptionHelper.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/EncryptionOptions.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/EPDFVersion.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/EStatusCode.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/ETokenSeparator.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/FontDescriptorWriter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/FreeTypeFaceWrapper.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/FreeTypeOpenTypeWrapper.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/FreeTypeType1Wrapper.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/FreeTypeWrapper.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/FSType.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/GlyphUnicodeMapping.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/GraphicState.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/GraphicStateStack.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/IANSIFontWriterHelper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/IByteReader.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/IByteReaderWithPosition.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/IByteWriter.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/IByteWriterWithPosition.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/IContentContextListener.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/IDeletable.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/IDescendentFontWriter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/IDocumentContextExtender.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/IFontDescriptorHelper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/IFormEndWritingTask.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/ITiledPatternEndWritingTask.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/IFreeTypeFaceExtender.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/IndirectObjectsReferenceRegistry.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InfoDictionary.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputAESDecodeStream.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputAscii85DecodeStream.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputAsciiHexDecodeStream.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputBufferedStream.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputByteArrayStream.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputCharStringDecodeStream.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputDCTDecodeStream.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputFile.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputFileStream.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputFlateDecodeStream.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputLZWDecodeStream.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputLimitedStream.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputOffsetStream.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputRC4XcodeStream.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputPFBDecodeStream.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputPredictorPNGOptimumStream.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputPredictorTIFFSubStream.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputStreamSkipperStream.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputStringBufferStream.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/InputStringStream.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/IOBasicTypes.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/IObjectsContextExtender.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/IPageEndWritingTask.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/IPDFParserExtender.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/IReadPositionProvider.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/IResourceWritingTask.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/IType1InterpreterImplementation.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/IType2InterpreterImplementation.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/IWrittenFont.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/JPEGImageHandler.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/JPEGImageInformation.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/JPEGImageParser.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/Log.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/MapIterator.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/MD5Generator.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/RC4.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/MyStringBuf.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/ObjectsBasicTypes.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/ObjectsContext.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/ObjectsContextExtenderAdapter.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/OpenTypeFileInput.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/OpenTypePrimitiveReader.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/OutputAESEncodeStream.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/OutputBufferedStream.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/OutputFile.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/OutputFileStream.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/OutputFlateDecodeStream.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/OutputFlateEncodeStream.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/OutputRC4XcodeStream.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/OutputStreamTraits.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/OutputStringBufferStream.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PageContentContext.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PageTree.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/ParsedPrimitiveHelper.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFArray.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFBoolean.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFCosArray.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFCosDict.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFDate.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFDictionary.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFDocEncoding.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFDocumentCopyingContext.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFDocumentHandler.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFEmbedParameterTypes.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFFormXObject.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFTiledPattern.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/TiledPatternContentContext.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFHexString.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFImageXObject.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFIndirectObjectReference.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFInteger.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFLiteralString.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFModifiedPage.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFName.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFNull.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFObject.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFObjectCast.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFObjectParser.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFPage.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFPageInput.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFDictionaryIterator.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFArrayIterator.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFPageMergingHelper.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFParser.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFParserTokenizer.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFParsingOptions.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFReal.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFRectangle.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFStream.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFStreamInput.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFSymbol.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFTextString.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFUsedFont.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PDFWriter.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PFMFileReader.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PNGImageHandler.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PrimitiveObjectsWriter.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/ProcsetResourcesConstants.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/PSBool.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/RefCountObject.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/RefCountPtr.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/ResourcesDictionary.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/SafeBufferMacrosDefs.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/SimpleStringTokenizer.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/Singleton.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/SingleValueContainerIterator.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/StandardEncoding.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/StateReader.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/StateWriter.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/TIFFImageHandler.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/TiffUsageParameters.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/Timer.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/TimersRegistry.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/Trace.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/TrailerInformation.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/TrueTypeANSIFontWriter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/TrueTypeDescendentFontWriter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/TrueTypeEmbeddedFontWriter.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/TrueTypePrimitiveWriter.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/Type1Input.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/Type1ToCFFEmbeddedFontWriter.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/Type1ToType2Converter.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/Type2CharStringWriter.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/UnicodeString.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/UppercaseSequance.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/UsedFontsRepository.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/WinAnsiEncoding.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/WrittenFontCFF.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/WrittenFontRepresentation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/WrittenFontTrueType.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/XCryptionCommon.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter/XObjectContentContext.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

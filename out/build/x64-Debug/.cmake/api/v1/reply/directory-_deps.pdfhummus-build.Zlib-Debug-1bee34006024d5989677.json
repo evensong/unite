@@ -1,0 +1,61 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"out/build/x64-Debug/_deps/pdfhummus-src/Zlib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "dependencies",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/pdfhummus-build/Zlib/Zlib.lib"
+			],
+			"targetId" : "Zlib::@e7fe4cc3c63e74ecfe68",
+			"targetIndex" : 7,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "dependencies",
+			"destination" : "include",
+			"paths" : 
+			[
+				"out/build/x64-Debug/_deps/pdfhummus-src/Zlib"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/pdfhummus-build/Zlib",
+		"source" : "out/build/x64-Debug/_deps/pdfhummus-src/Zlib"
+	}
+}

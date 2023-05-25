@@ -1,0 +1,61 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"out/build/x64-Debug/_deps/pdfhummus-src/LibTiff/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "dependencies",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/pdfhummus-build/LibTiff/LibTiff.lib"
+			],
+			"targetId" : "LibTiff::@02afebf33049ff088dab",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "dependencies",
+			"destination" : "include",
+			"paths" : 
+			[
+				"out/build/x64-Debug/_deps/pdfhummus-src/LibTiff"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/pdfhummus-build/LibTiff",
+		"source" : "out/build/x64-Debug/_deps/pdfhummus-src/LibTiff"
+	}
+}

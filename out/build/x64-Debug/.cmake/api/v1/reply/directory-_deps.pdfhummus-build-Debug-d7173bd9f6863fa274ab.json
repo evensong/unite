@@ -1,0 +1,143 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"include"
+		],
+		"files" : 
+		[
+			"C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/InstallRequiredSystemLibraries.cmake",
+			"out/build/x64-Debug/_deps/pdfhummus-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 164,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 798,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 803,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 172,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 190,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Redist/MSVC/14.36.32532/x64/Microsoft.VC143.CRT/msvcp140.dll",
+				"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Redist/MSVC/14.36.32532/x64/Microsoft.VC143.CRT/msvcp140_1.dll",
+				"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Redist/MSVC/14.36.32532/x64/Microsoft.VC143.CRT/msvcp140_2.dll",
+				"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Redist/MSVC/14.36.32532/x64/Microsoft.VC143.CRT/msvcp140_atomic_wait.dll",
+				"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Redist/MSVC/14.36.32532/x64/Microsoft.VC143.CRT/msvcp140_codecvt_ids.dll",
+				"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Redist/MSVC/14.36.32532/x64/Microsoft.VC143.CRT/vcruntime140_1.dll",
+				"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Redist/MSVC/14.36.32532/x64/Microsoft.VC143.CRT/vcruntime140.dll",
+				"C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Redist/MSVC/14.36.32532/x64/Microsoft.VC143.CRT/concrt140.dll"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				""
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/PDFHummus",
+			"exportName" : "PDFHummusTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Zlib::@e7fe4cc3c63e74ecfe68",
+					"index" : 7
+				},
+				{
+					"id" : "FreeType::@8a677c8f3a7b9f94a39e",
+					"index" : 0
+				},
+				{
+					"id" : "LibAesgm::@68a521424f49e153c497",
+					"index" : 1
+				},
+				{
+					"id" : "LibJpeg::@a5a07c2426d657f22077",
+					"index" : 2
+				},
+				{
+					"id" : "LibTiff::@02afebf33049ff088dab",
+					"index" : 4
+				},
+				{
+					"id" : "LibPng::@aaa3de8ea0f73c377139",
+					"index" : 3
+				},
+				{
+					"id" : "PDFWriter::@3757e917971a49704dc1",
+					"index" : 5
+				}
+			],
+			"paths" : 
+			[
+				"_deps/pdfhummus-build/CMakeFiles/Export/e2cca295cf7b8c43f9915710ef92cf09/PDFHummusTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/PDFHummus",
+			"paths" : 
+			[
+				"out/build/x64-Debug/_deps/pdfhummus-build/PDFHummusConfig.cmake",
+				"out/build/x64-Debug/_deps/pdfhummus-build/PDFHummusConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/pdfhummus-build",
+		"source" : "out/build/x64-Debug/_deps/pdfhummus-src"
+	}
+}

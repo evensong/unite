@@ -1,0 +1,277 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "_deps/pdfhummus-build",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.pdfhummus-build-Debug-d7173bd9f6863fa274ab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "out/build/x64-Debug/_deps/pdfhummus-src"
+				},
+				{
+					"build" : "_deps/pdfhummus-build/Zlib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.pdfhummus-build.Zlib-Debug-1bee34006024d5989677.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "out/build/x64-Debug/_deps/pdfhummus-src/Zlib",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "_deps/pdfhummus-build/FreeType",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.pdfhummus-build.FreeType-Debug-4597a90afcf24c235f00.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "out/build/x64-Debug/_deps/pdfhummus-src/FreeType",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "_deps/pdfhummus-build/LibAesgm",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.pdfhummus-build.LibAesgm-Debug-4b3ced3abeab7487c5dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "out/build/x64-Debug/_deps/pdfhummus-src/LibAesgm",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "_deps/pdfhummus-build/LibJpeg",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.pdfhummus-build.LibJpeg-Debug-1cd71ed2e76467a59381.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "out/build/x64-Debug/_deps/pdfhummus-src/LibJpeg",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "_deps/pdfhummus-build/LibTiff",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.pdfhummus-build.LibTiff-Debug-23671c200eacd7de23af.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "out/build/x64-Debug/_deps/pdfhummus-src/LibTiff",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "_deps/pdfhummus-build/LibPng",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.pdfhummus-build.LibPng-Debug-961f8e04e4f40df486a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "out/build/x64-Debug/_deps/pdfhummus-src/LibPng",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "_deps/pdfhummus-build/PDFWriter",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.pdfhummus-build.PDFWriter-Debug-fbc0e216ecddc58a61a0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "out/build/x64-Debug/_deps/pdfhummus-src/PDFWriter",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Unite",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "PDFHummus",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "FreeType::@8a677c8f3a7b9f94a39e",
+					"jsonFile" : "target-FreeType-Debug-efec1da0b736653f931d.json",
+					"name" : "FreeType",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "LibAesgm::@68a521424f49e153c497",
+					"jsonFile" : "target-LibAesgm-Debug-154ac7ad70320c25b6e0.json",
+					"name" : "LibAesgm",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "LibJpeg::@a5a07c2426d657f22077",
+					"jsonFile" : "target-LibJpeg-Debug-681dabfabcfec0ed95ee.json",
+					"name" : "LibJpeg",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "LibPng::@aaa3de8ea0f73c377139",
+					"jsonFile" : "target-LibPng-Debug-64162f37bc0a58b9f0ac.json",
+					"name" : "LibPng",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "LibTiff::@02afebf33049ff088dab",
+					"jsonFile" : "target-LibTiff-Debug-52272c34050c12f309e1.json",
+					"name" : "LibTiff",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "PDFWriter::@3757e917971a49704dc1",
+					"jsonFile" : "target-PDFWriter-Debug-91485e2dccd03a7ca903.json",
+					"name" : "PDFWriter",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Unite::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Unite-Debug-bcb9c4d6ae0a81214d67.json",
+					"name" : "Unite",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Zlib::@e7fe4cc3c63e74ecfe68",
+					"jsonFile" : "target-Zlib-Debug-3472704e2c6f6049be40.json",
+					"name" : "Zlib",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/APP/source/repos/unite/out/build/x64-Debug",
+		"source" : "C:/Users/APP/source/repos/unite"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
