@@ -1,7 +1,7 @@
-/*#include "PDFWriter.h"
+#include "PDFWriter.h"
 #include "PDFModifiedPage.h"
 #include "AbstractContentContext.h"
-*/
+
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -35,22 +35,22 @@ int main() {
 	std::map<std::string, std::string> dict; //this will hold our mapping of english words/phrases to spanish
 
 	try {
-		std::ifstream inFile;
-		inFile.open("dictionary.txt");
+		std::ifstream inputFile;
+		inputFile.open("dictionary.txt");
 
-		while (!inFile.eof()) {
+		while (!inputFile.eof()) {
 			char english[256], spanish[256];
 
-			inFile.getline(english, 256, ':');
-			inFile.getline(spanish, 256);
+			inputFile.getline(english, 256, ':');
+			inputFile.getline(spanish, 256);
 
 			dict[english] = spanish;
 
-			if (!inFile.good() && !inFile.eof()) {
-				throw(inFile.rdstate());
+			if (!inputFile.good() && !inputFile.eof()) {
+				throw(inputFile.rdstate());
 			}
 		}
-		inFile.close();
+		inputFile.close();
 	}
 	catch (std::ios_base::iostate error) {
 		std::cout << "Enountered an error setting up dictionary. Error code: " << error << std::endl;
@@ -70,12 +70,12 @@ int main() {
 
 
 
-	/*
-	PDFHummus::PDFWriter pdfWriter;
-	PDFHummus::pdfWriter.ModifyPDF(inPath, ePDFVersion13, outPath);
+	
+	PDFWriter pdfWriter;
+	pdfWriter.ModifyPDF(inPath, ePDFVersion13, outPath);
 
-	PDFHummus::pdfWriter.EndPDF();
-	*/
+	pdfWriter.EndPDF();
+	
 
 	test(dict);
 	
