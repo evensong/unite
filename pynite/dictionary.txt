@@ -1,16 +1,17 @@
-girl's clothing:ropa de niña
-women's clothing:ropa de mujer
-boy's clothing:ropa de niño
-men's clothing:ropa de hombre
-kitchen:cocina
-bathroom:baño
-furniture:muebles
-bedroom:dormitorio
-household items:dispositivos de casa
-sleep products:camas
-miscellaneous:misceláneos
-new:nuevo
-used:usado
+kitchen table:mesa de cocina
+girl's clothing:Ropa de Niña
+women's clothing:Ropa de Mujer
+boy's clothing:Ropa de Niño
+men's clothing:Ropa de Hombre
+kitchen:Cocina
+bathroom:Baño
+furniture:Muebles
+bedroom:Dormitorio
+household items:Dispositivos de Casa
+sleep products:Camas
+miscellaneous:Misceláneos
+new:Nuevo
+used:Usado
 dressy blouse:blusa elegante
 infant tops/pants/sleepwear:tops/pantalones/piyamas de bebita
 infant dresses:vestidos de bebita
@@ -22,7 +23,6 @@ dress shoes:zapatos de vestir
 mattress pad:funda de colchón
 clock radio:radio despertador
 sewing machine:maquina de coser
-kitchen table:mesa de cocina
 small dining table:mesa de comedor pequeña
 upholstered chair:silla tapizada
 eight-drawer dresser mirror:espejo de cómoda de ocho cajones
@@ -93,3 +93,7 @@ book:libro
 bike:bicicleta
 toy:juegete
 hanger:gancho
+women's: 
+men's: 
+boy's: 
+girl's: 
