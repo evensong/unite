@@ -93,7 +93,7 @@ book:libro
 bike:bicicleta
 toy:juegete
 hanger:gancho
-women's: 
-men's: 
-boy's: 
-girl's: 
+women's:-
+men's:-
+boy's:-
+girl's:- 

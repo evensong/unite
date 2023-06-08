@@ -1,17 +1,23 @@
 import os
 import PyPDF2
-# from fpdf import FPDF
 import codecs # for spanish characters
 import re
-# from fpdf import FPDF
+import requests # get dictionary from github pages
 
 #read english/spanish word pairs
 dictionary = {}
-with codecs.open('dictionary.txt', encoding='utf-8') as translate:
+'''with codecs.open('dictionary.txt', encoding='utf-8') as translate:
     
     for line in translate:
         english, spanish = line.split(':')
-        dictionary[english] = spanish.strip()
+        dictionary[english] = spanish.strip()'''
+        
+
+response = requests.get('https://evensong.github.io/unite/dictionary.txt')
+dict_text = response.text
+for line in dict_text:
+    english, spanish = line.split(':')
+    dictionary[english] = spanish.strip()
 
 # Read in the PDF        
 path = input('Please enter document filepath: ')
