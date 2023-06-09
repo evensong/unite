@@ -4,21 +4,20 @@ import codecs # for spanish characters
 import re
 import requests # get dictionary from github pages
 
-#read english/spanish word pairs
 dictionary = {}
-'''with codecs.open('dictionary.txt', encoding='utf-8') as translate:
+
+# get updated dictionary from the web, then read in word mapping
+response = requests.get('https://evensong.github.io/unite/dictionary.txt')
+
+with open('english-spanish.txt', 'w+') as update:
+    update.write(response.text)
+    
+with codecs.open('english-spanish.txt', encoding='utf-8') as translate:
     
     for line in translate:
         english, spanish = line.split(':')
-        dictionary[english] = spanish.strip()'''
+        dictionary[english] = spanish.strip()
         
-
-response = requests.get('https://evensong.github.io/unite/dictionary.txt')
-dict_text = response.text
-for line in dict_text:
-    english, spanish = line.split(':')
-    dictionary[english] = spanish.strip()
-
 # Read in the PDF        
 path = input('Please enter document filepath: ')
 
