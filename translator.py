@@ -7,7 +7,6 @@ Created on Fri Jun  9 15:28:24 2023
 import os
 from io import StringIO
 import PyPDF2
-import codecs # for spanish characters
 import re
 import requests # get dictionary from github pages
 
